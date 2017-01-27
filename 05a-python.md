@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> They are similar because they are both unordered iterable data structures.  They are different because tuples cannot be modified once made, while lists can.  Tuples work as keys in dictionary because you want to be sure your keys will not change.
 
 ---
 
@@ -20,7 +20,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> They are similar because they are both unordered iterable data structures.  They are different because sets have the whole host of set operations associated with them and also there can be repetition of values in sets.  It would be easier to find an item in a set becuase there would be less items in it and you'd simply search for a subset.
 
 ---
 
@@ -28,7 +28,9 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lambda is an anonymous function.  It is basically a function that you use once in a certain specific case where you are transforming data according to a rule such as in the map and filter functions.  
+people = [(John,Aspiring Data Scientist, 25),(Matt,Trucker, 30),(Alfred,Retired,80)]
+sort_by_age = sorted(people, key = lambda person: person[2])
 
 ---
 
@@ -36,7 +38,11 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+List comprehensions create a list by applying every value in a range or i in a list to the conditions or function specified.
+return [x**2 for x in range(10) if x % 2 == 1]  This returns the square of odd numbers between 0 and 10.
+my_list = [1,3,5,7,9]
+return map(lambda y: y**2, filter(lambda x: x % 2 == 1, my_list))
+
 
 ---
 
