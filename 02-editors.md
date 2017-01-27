@@ -60,14 +60,13 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Emacs because someone on internet said it is best for stats.
 
 --
 
 ###Q2. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
-
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I have both spyder and atom.  I used atom initially for my python programming following the advice from the author of Learn Python the Hard Way.  I still feel most comfortable writing code in that editor.  I also have spyder because it came with the anaconda package I installed.  I intend to use spyder more because I imagine it will integrate better with jupyter notebooks.
 
  
