@@ -50,11 +50,11 @@ Did you install Python 2 or 3? Why?
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
 
-###Q2. Which Python Version Installed   
+Python 3.5.2  because it's the newest and best.  While most developers and data scientists have not transitioned yet due to legacy costs, they eventually will.  
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Enter "python" into the command line to initiate a python shell and it will tell you what version you are running.
 
  
 
