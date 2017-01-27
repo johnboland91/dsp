@@ -9,22 +9,31 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+cd Home Directory
+ls Short Listing
+open[file] Opens a file
+clear clears screen
+reset resets terminal display
+touch[file] creates new file
+pwd full path to working directory
+. current directory
+mkdir[dir] creates a new directory
+rmdir[dir] removes directory
 
 ---
 
 ###Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`   gives short listing of items in current directory
+`ls -a`gives short listing of items in current directory including hidden files
+`ls -l` gives long listing of items in current directory
+`ls -lh`gives long listing of items in current directory with human readable file sizes 
+`ls -lah`gives long listing of items in current directory including hidden files with human readable files sizes 
+`ls -t`  gives short listing of items in current directory displaying newest items first 
+`ls -Glp`  gives long listing of items in current directory, displaying directories with/,but excludes owners name
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+
 
 ---
 
@@ -33,14 +42,19 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+'-r' displays files in reverse order
+'-1' displays each entry on a line
+'-x' displays files as rows across screen
+'-u' Displays files by file access time
+'-m' displays the names as a comma separated list
 ---
 
 ###Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs executes arguments 
+find ./music -name "*.mp3" -print0 |xargs -0 ls
 
  
 
